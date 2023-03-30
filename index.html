@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href = "img/newlogo.png" />
+    <link rel="shortcut icon" href = "img/logo.png" />
     <script src="https://unpkg.com/ityped@1.0.2"></script>
     <title>Fred Hong</title>
 </head>
@@ -12,7 +12,7 @@
                 <nav class = "navbar-style">
                     <div class = "logo-style">
                         <a href = "./index.html">
-                            <img src="img/newlogo.png" alt = "logo" />
+                            <img src="img/logo.png" alt = "logo" />
                         </a>
                     </div>
                     <div class = "nav-link-style">
@@ -55,9 +55,6 @@
                             </p>
                         </div>
                         <div>
-                            <a class = "home-buttons" href="./index.html" target="_blank" rel="noreferrer">
-                                Temporary button
-                            </a>
                             <a class = "home-buttons" href="img/Resume22.pdf" target="_blank" rel="noreferrer">
                                 My Resume
                             </a>
@@ -103,24 +100,37 @@
                             </div>
                         </div>
                     </section>
-                    <section id = "experience">
+                    <section id = "experience" class="experience">
                         <h2 class = "page-headings">
                             &lt;/Experience&gt;
                         </h2>
                         <div class = "grid-wrapper">
                             <div class = "container">
                                 <div class = "banner-img"></div>
-                                <img src = "img/ldrs-logo.png" alt = "company-image" class = "company-img">
+                                <div class="company-img-wrapper">
+                                    <img src = "img/ldrs-logo.png" alt = "company-image" class = "company-img">
+                                </div>
                                 <p class = "company-name"><b>Full-Stack Developer @ LDRS Investments Inc.</b></p>
                                 <h4>Jan 2023 - Apr 2023</h4>
-                                <p class = "description"> affaw fawfwafwafawf wa f wa</p>
+                                <p class = "description">Bio</p>
+                            </div>  
+                            <div class = "container">
+                                <div class = "banner-img"></div>
+                                <div class="company-img-wrapper tutor">
+                                    <img src = "img/logov2.png" alt = "company-image" class = "company-img">
+                                </div>
+                                <p class = "company-name"><b>Computer Science Tutor Self-Employed</b></p>
+                                <h4>Aug 2021 - May 2022</h4>
+                                <p class = "description">Bio</p>
                             </div>
                             <div class = "container">
                                 <div class = "banner-img"></div>
-                                <img src = "" alt = "company-image" class = "company-img">
-                                <p class = "company-name"></p>
-                                <h4></h4>
-                                <p class = "description"></p>
+                                <div class="company-img-wrapper">
+                                    <img src = "img/bci-logo.png" alt = "company-image" class = "company-img">
+                                </div>
+                                <p class = "company-name"><b>Technician Officer @ Brain Changes Initiative</b></p>
+                                <h4>Jan 2022 - Apr 2022</h4>
+                                <p class = "description">Bio</p>
                             </div>
                             <!-- <div class = "container">
                                 <img src = "" alt = "company-image" class = "company-img">
@@ -130,15 +140,62 @@
                             </div> -->
                         </div>
                     </section>
-                    <section id = "projects">
+                    <section id = "projects" class="projects">
                         <h2 class = "page-headings">
                             &lt;/Projects&gt;
                         </h2>
+                        <div class ="grid-container">
+                            <div class = "grid-item">
+                                <img src="./img/img-portfolio.PNG"/>
+                                <div class = "grid-item-bio">
+                                    Portfolio Website
+                                </div>
+                            </div>
+                            <div class = "grid-item">
+                                <img src="./img/img-portfolio.PNG"/>
+                                <div class = "grid-item-bio">
+                                    Project 2
+                                </div>
+                            </div>
+                            <div class = "grid-item">
+                                <img src="./img/img-portfolio.PNG"/>
+                                <div class = "grid-item-bio">
+                                    Project 3
+                                </div>
+                            </div>
+                            <div class = "grid-item">
+                                <img src="./img/img-portfolio.PNG"/>
+                                <div class = "grid-item-bio">
+                                    Project 4
+                                </div>
+                            </div>
+                            <div class = "grid-item">
+                                <img src="./img/img-portfolio.PNG"/>
+                                <div class = "grid-item-bio">
+                                    Project 5
+                                </div>
+                            </div>
+                            <div class = "grid-item">
+                                <img src="./img/img-portfolio.PNG"/>
+                                <div class = "grid-item-bio">
+                                    Project 6
+                                </div>
+                            </div>
+                        </div>
                     </section>
-                    <section id = "contact">
+                    <section id = "contact" class="contact">
                         <h2 class = "page-headings">
                             &lt;/Contact&gt;
                         </h2>
+                        <h2>
+                            Let's Talk!
+                        </h2>
+                        <p>
+                            Please reach out to  me via email!
+                        </p>
+                        <a href = "mailto: fredhong.to@gmail.com" class="home-buttons">
+                            Send email
+                        </a>
                     </section>
                 </main>
                 <footer class="footer-style">
