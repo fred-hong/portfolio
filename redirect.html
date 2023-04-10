@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/rotator.css">
+    </head>
+    <body>
+        <div id="counter">5</div>
+        <div class = "loading">
+            <svg viewBox="0 0 100 100">
+                <polygon class="octagon" points="50,0 90,25 90,75 50,100 10,75 10,25" />
+            </svg>
+            <a class="lr"><img src="img/F.png" /></a>
+            <a class="rl"><img src="img/H.png" /></a>
+        </div>
+        <script>
+            setInterval(function() {
+                var div = document.querySelector("#counter");
+                var count = div.textContent * 1 - 1;
+                div.textContent = count;
+                if (count <= 0) {
+                    window.location.replace("index.html");
+                }
+            }, 1000);
+        </script>
+
+      <script src="script.js"></script>
+    </body>
+</html>

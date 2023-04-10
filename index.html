@@ -10,23 +10,23 @@
         <div class="layout-style">
             <header class = "header-style">
                 <nav class = "navbar-style">
-                    <div class = "logo-style">
+                    <div class = "logo-style init-fade">
                         <a href = "./index.html">
                             <img src="img/logo.png" alt = "logo" />
                         </a>
                     </div>
                     <div class = "nav-link-style">
                         <ol>
-                            <li>
+                            <li class = "init-fade">
                                 <a href="#aboutme">&lt;/About Me&gt;</a>
                             </li>
-                            <li>
+                            <li class = "init-fade">
                                 <a href="#experience">&lt;/Experience&gt;</a>
                             </li>
-                            <li>
+                            <li class = "init-fade">
                                 <a href="#projects">&lt;/Projects&gt;</a>
                             </li>
-                            <li>
+                            <li class = "init-fade">
                                 <a href="#contact">&lt;/Contact&gt;</a>
                             </li>
                         </ol>
@@ -54,35 +54,35 @@
                 <main class="main-template fillHeight">
                     <section class = "first-section">
                         <div class="first-small-header">
-                            <h1>Hi, my name is</h1>
+                            <h1 class="init-fade">Hi, my name is</h1>
                         </div>
                         <div class="main-header">
-                            <h2 class="big-heading">Fred Hong.</h2>
+                            <h2 class="big-heading init-fade">Fred Hong.</h2>
                         </div>
                         <div class="sub-header">
-                            <h3 class="big-heading">
+                            <h3 class="big-heading init-fade">
                                 I am a
                                 <span id="ityped"></span>
                             </h3>
                         </div>
                         <div class="header-p">
-                            <p>
+                            <p class="init-fade">
                                 A 3rd year <b>Computer Science</b> student specializing in building exceptional
                                 user experiences through my passion for <b>web development</b>, <b>software engineering</b> and <b>database administrating</b>.
                             </p>
                         </div>
                         <div>
-                            <a class = "home-buttons" href="img/Resume22.pdf" target="_blank" rel="noreferrer">
+                            <a class = "home-buttons init-fade" href="img/Resume22.pdf" target="_blank" rel="noreferrer">
                                 My Resume
                             </a>
                         </div>
                     </section>
                     <section id = "aboutme" class = "aboutme-section">
-                        <h2 class = "page-headings">
+                        <h2 class = "page-headings reveal fade-bottom">
                             &lt;/About Me&gt;
                         </h2>
                         <div class = "inner">
-                            <div class = "inner-left">
+                            <div class = "inner-left reveal fade-bottom">
                                 <div>
                                     <p>
                                         Hey there! My name is Fred Hong. Currently, I am pursuing a Bachelor's Degree at York University for Computer Science. With this degree,
@@ -98,7 +98,7 @@
                                         as a full-stack developer for 2023.
                                     </p>
                                     <p>
-                                        Here are a few technologies I’ve been working with recently:
+                                        Here are a few technologies I've been working with recently:
                                     </p>
                                 </div>
                                 <ul class="list-skills">
@@ -110,14 +110,14 @@
                                     <li>Javascript</li>
                                 </ul>
                             </div>
-                            <div class = "inner-right">
+                            <div class = "inner-right reveal fade-right">
                                 <div class = "wrapper">
                                     <img src = "img/selfportrait.jpg" alt = "self-portrait" />
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section id = "experience" class="experience">
+                    <section id = "experience" class="experience reveal fade-bottom">
                         <h2 class = "page-headings">
                             &lt;/Experience&gt;
                         </h2>
@@ -157,7 +157,7 @@
                             </div> -->
                         </div>
                     </section>
-                    <section id = "projects" class="projects">
+                    <section id = "projects" class="projects reveal fade-bottom">
                         <h2 class = "page-headings">
                             &lt;/Projects&gt;
                         </h2>
@@ -193,7 +193,7 @@
                                 </div>
                             </div>
                             <div class = "grid-item">
-                                <img src="./img/img-portfolio.PNG"/>
+                                <img class="img_contain" src="./img/eventproject.JPG"/>
                                 <div class = "grid-item-bio">
                                     <div class = "grid-item-bio-title">
                                         Event Management System
@@ -207,7 +207,7 @@
                                 </div>
                             </div>
                             <div class = "grid-item">
-                                <img src="./img/img-portfolio.PNG"/>
+                                <img src="./img/calculator.JPG"/>
                                 <div class = "grid-item-bio">
                                     <div class = "grid-item-bio-title">
                                         Calculator App
@@ -250,7 +250,7 @@
                             </div>
                         </div>
                     </section>
-                    <section id = "contact" class="contact">
+                    <section id = "contact" class="contact reveal fade-bottom">
                         <h2 class = "page-headings">
                             &lt;/Contact&gt;
                         </h2>
@@ -277,6 +277,7 @@
             </div>
         </div>
     </div>
+    <script src="js/reveal.js"></script>
     <script src="js/ityped.js"></script> 
     <script src="js/typeWriter1.js"></script>
 </body>
