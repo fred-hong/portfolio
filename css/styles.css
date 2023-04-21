@@ -191,6 +191,7 @@ main {
     bottom: 0px;
     left: 20px;
     right: auto;
+    z-index: 10;
     color: #b0bec5;
 }
 
@@ -204,11 +205,6 @@ main {
     list-style: none;
 }
 
-.side-bar ul li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
 .side-bar ul li a {
     display: inline-block;
     text-decoration: none;
@@ -217,14 +213,6 @@ main {
     position: relative;
     padding: 10px;
     /* transition: var(--transition); */
-}
-
-svg.feather {
-    fill: none;
-}
-
-svg {
-    vertical-align: center;
 }
 
 .side-bar ul::after {
